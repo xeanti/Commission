@@ -1,0 +1,458 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+a{
+    text-decoration: none;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: #282828;
+    color: #fff;
+
+}
+section
+{
+    width: 100vw;
+    padding: 1rem 5vw;
+    display: flex;
+    gap: 1rem;
+    align-items: flex-end;
+}
+.design-one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    background: linear-gradient(75deg, #202022 0%, white 100%);
+}
+.design-one .company-logo{
+    height: 70px;
+    margin-left: 1rem;
+}
+.design-one nav.navigation{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.2rem;
+}
+.design-one a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 0,5rem;
+    color: black;
+}
+.design-one .search-container{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.design-one .search-input{
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+.design-one .search-button{
+    padding: 5px 10px;
+    border: none;
+    background-color: #23282c;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.design-two{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background: linear-gradient(75deg, #272b2c 0%, #010102 100%);
+}
+.design-two .navigation{
+    display: flex;
+    gap: 15px;
+}
+.design-two .navigation-content{
+    background-color: #b9b9b9;
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+}
+.design-two .search-container{
+    display: flex;
+    align-items: center;
+}
+.design-two .search-input{
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+.design-two .search-button{
+    padding: 5px 10px;
+    border: none;
+    background-color: #23282c;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.design-three{
+    display: flex;
+    background-color: rgb(38, 36, 39);
+    align-items: center;
+    width: calc(100% - 1rem);
+    justify-content: space-between;
+    padding: 0.7rem 14vw;
+    border-radius: 5px;
+}
+.design-three .company-logo{
+    height: 70px;
+}
+.design-three .navigation{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.design-three .navigation .nav-button {
+    font-weight: 500;
+    font-size: 1rem;
+    border: 1px rgb(223, 223, 223) solid;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+}
+.design-four{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: calc(100% - 1rem);
+    padding: 20px;
+    background: rgba(120, 131, 136, 0.6);
+}
+.design-four .company-logo{
+    height: 70px;
+    padding-right: 20px;
+}
+.design-four .navigation{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    color: rgb(0, 0, 0);
+    padding-left: 20px;
+}
+.design-four .navigation-content {
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+.design-five{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7rem 10vw;
+    background: #0a080a;
+}
+.design-five .company-logo{
+    height: 70px;
+}
+.design-five .navigation a {
+    text-decoration: none;
+    margin: 0 10px;
+}
+.design-five .navigation a i {
+    font-size: 24px;
+    color: rgb(141, 141, 141);
+}
+.design-six-animation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    background: linear-gradient(75deg, #202022 0%, white 100%);
+    animation: slideIn 3s ease-out;
+}
+@keyframes slideIn{
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.design-six-animation .company-logo{
+    height: 60px;
+    margin-left: 1rem;
+    transition: transform 0.3s ease-in-out;
+}
+.design-six-animation .company-logo:hover{
+    transform: scale(1.1);
+}
+.design-six-animation nav.navigation{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.2rem;
+}
+.design-six-animation a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 0,5rem;
+    color: black;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+.design-six-animation a:hover{
+    color: white;
+    background-color: black;
+}
+.design-six-animation .search-container {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.design-six-animation .search-input {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+.design-six-animation .search-button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #23282c;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.design-six-animation .search-button:hover{
+    background-color: #1a1d20;
+    transform: scale(1.1);
+}
+.design-seven-animation{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background: linear-gradient(75deg, #272b2c 0%, #010102 100%);
+    opacity: 0;
+    transform: translateY(-50px);
+    animation: slideIn 1s forwards;
+}
+@keyframes slideIn{
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.design-seven-animation .navigation{
+    display: flex;
+    gap: 15px;
+}
+.design-seven-animation .navigation-content{
+    background-color: #b9b9b9;
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    transition: transform .3s, box-shadow 2s;
+}
+.design-seven-animation .navigation-content:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.design-seven-animation .search-container{
+    display: flex;
+    align-items: center;
+}
+.design-seven-animation .search-input{
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: width 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+.design-seven-animation .search-input:focus{
+    width: 180px;
+    transform: scale(1.05);
+}
+.design-seven-animation .search-button{
+    padding: 5px 10px;
+    border: none;
+    background-color: #23282c;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+.design-seven-animation .search-button:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+}
+.design-eight-animation{
+    display: flex;
+    background-color: rgb(38, 36, 39);
+    align-items: center;
+    width: calc(100% - 1rem);
+    justify-content: space-between;
+    padding: 0.7rem 14vw;
+    border-radius: 5px;
+    transform: scale(0.95);
+    animation: zoomInFadeIn 1s forwards;
+}
+@keyframes zoomInFadeIn{
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+.design-eight-animation .company-logo{
+    height: 70px;
+}
+.design-eight-animation .navigation{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.design-eight-animation .nav-button{
+    font-weight: 500;
+    font-size: 1rem;
+    border: 1px rgb(223, 223, 223) solid;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    transition: transform 0.3s, background-color 0.3s, box-shadow 0.3s, color 0.3s;
+}
+.design-eight-animation .nav-button:hover{
+    transform: scale(1.05);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+    color: rgb(0, 0, 0);
+    animation: pulse 1s infinite;
+}
+@keyframes pulse{
+    0% {
+        transform: scale(1.05);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1.05);
+    }
+}
+.design-nine-animation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: calc(100% - 1rem);
+    padding: 20px;
+    background: rgba(120, 131, 136, 0.6);
+}
+.design-nine-animation .company-logo{
+    height: 70px;
+    padding-right: 20px;
+}
+.design-nine-animation .company-logo:hover{
+    transform: perspective(1000px) rotateX(10deg) rotateY(10deg);
+    transition: transform 0.2s ease, box-shadow 0.4s ease;
+}
+.design-nine-animation .navigation{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    color: rgb(0, 0, 0);
+    padding-left: 20px;
+}
+.design-nine-animation .navigation-content{
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    transition: color 0.3s, text-shadow 0.3s;
+}
+.design-nine-animation .navigation-content:hover{
+    color: rgb(255, 255, 255);
+    text-shadow: 0 2px 4px rgb(255, 255, 255);
+}
+.design-nine-animation .navigation-content::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 3px;
+    background-color: rgb(0, 0, 0);
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+.design-nine-animation .navigation-content:hover::after{
+    transform: scaleX(1);
+}
+.design-ten-animation{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7rem 10vw;
+    background: #0a080a;
+}
+.design-ten-animation .company-logo{
+    height: 70px;
+    opacity: 0;
+    transform: translateY(-10px);
+    animation: logoFadeIn 1s forwards;
+}
+.design-ten-animation .company-logo:hover {
+    filter: drop-shadow(0 0 15px rgba(255, 255, 255, 0.8));
+    transition: filter 0.3s ease;
+}
+@keyframes logoFadeIn{
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.design-ten-animation .navigation a{
+    text-decoration: none;
+    margin: 0 10px;
+    color: rgb(141, 141, 141);
+}
+.design-ten-animation .navigation a i{
+    font-size: 24px;
+    color: rgb(141, 141, 141);
+    transition: color 0.3s, transform 0.3s;
+}
+.design-ten-animation .navigation a:hover i{
+    color: rgb(255, 255, 255);
+    transform: scale(1.7);
+}
